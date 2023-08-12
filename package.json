@@ -12,6 +12,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "puppeteer": "^21.0.3",
-    "puppeteer-core": "^21.0.3"
+    "puppeteer-core": "^21.0.3",
+    "yarn": "^1.22.19"
   }
 }
