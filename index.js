@@ -14,8 +14,6 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-//
-
 app.post("/generate-pdf", async (req, res) => {
   try {
     const { name, email } = req.body; // Extract data from the request

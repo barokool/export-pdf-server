@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "express-rate-limit": "^6.9.0",
     "puppeteer": "^21.0.3",
     "puppeteer-core": "^21.0.3",
     "yarn": "^1.22.19"
