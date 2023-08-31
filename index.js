@@ -16,8 +16,6 @@ app.get("/", (req, res) => {
 
 app.post("/generate-pdf", async (req, res) => {
   try {
-    const { name, email } = req.body; // Extract data from the request
-
     const template = cvCanadaTemplate(req.body);
 
     const browser = await puppeteer.launch({

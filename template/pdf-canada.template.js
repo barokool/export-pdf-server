@@ -1,5 +1,5 @@
 const cvCanadaTemplate = (obj) => {
-  const { name, email } = obj;
+  const { name, email, phone, city, state, address, dob } = obj;
   return `<!DOCTYPE html>
   <html lang="en">
     <head>
@@ -68,15 +68,17 @@ const cvCanadaTemplate = (obj) => {
         <section class="section">
           <h2>Contact Information</h2>
           <p>Email: ${email}</p>
-          <p>Phone: (123) 456-7890</p>
-          <p>Website: <a href="https://www.johndoe.com">www.johndoe.com</a></p>
+          <p>Phone: ${phone}</p>
+          <p>Phone: ${dob}</p>
+
+          <p>Address: ${address} ${city} ${state}</p>
         </section>
   
         <section class="section">
           <h2>Education</h2>
           <p>
             <strong>Master of Science in Computer Science</strong><br />University
-            of ABC
+            of 학사 학위 in 컴퓨터 과학
           </p>
         </section>
   
@@ -141,7 +143,7 @@ const cvCanadaTemplate = (obj) => {
           <h2>Languages</h2>
           <ul>
             <li>English (Fluent)</li>
-            <li>Spanish (Intermediate)</li>
+            <li>Korean </li>
           </ul>
         </section>
       </div>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Doe - CV</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2em;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+      }
+      header {
+        text-align: center;
+        padding-bottom: 1em;
+        border-bottom: 1px solid #ccc;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+      p {
+        margin: 0;
+        color: #666;
+      }
+      .section {
+        margin-bottom: 1.5em;
+      }
+      h2 {
+        margin-bottom: 0.5em;
+        font-size: 1.5em;
+      }
+      ul {
+        list-style: disc;
+        margin-left: 1.5em;
+        color: #333;
+      }
+      li {
+        margin-bottom: 0.3em;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>${name}</h1>
+        <p>Web Developer</p>
+      </header>
+
+      <section class="section">
+        <h2>Contact Information</h2>
+        <p>Email: ${email}</p>
+        <p>Phone: ${phone}</p>
+        <p>Website: <a href="https://www.johndoe.com">www.johndoe.com</a></p>
+      </section>
+
+      <section class="section">
+        <h2>Education</h2>
+        <p>
+          <strong>Master of Science in Computer Science</strong><br />University
+          of ABC
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Experience</h2>
+        <p>
+          <strong>Data Analyst</strong><br />Insightful Analytics Co.<br />2019
+          - Present
+        </p>
+        <li>
+          Analyzed large datasets to extract insights and identify trends for
+          business growth.
+        </li>
+        <li>
+          Developed and maintained data pipelines for data extraction,
+          transformation, and loading (ETL).
+        </li>
+        <li>
+          Created interactive dashboards using Tableau for data visualization
+          and reporting.
+        </li>
+        <li>
+          Collaborated with cross-functional teams to deliver actionable
+          recommendations.
+        </li>
+      </section>
+
+      <section class="section">
+        <!-- <h2>Data Intern</h2> -->
+        <p><strong>Data intern</strong><br />BlueSky Tech<br />2018 - 2019</p>
+        <li>
+          Assisted in data cleaning and preprocessing tasks to ensure data
+          accuracy and consistency.
+        </li>
+        <li>
+          Conducted exploratory data analysis (EDA) to uncover patterns and
+          anomalies.
+        </li>
+        <li>
+          Supported the development of predictive models for sales forecasting
+          using Python and scikit-learn.
+        </li>
+      </section>
+
+      <section class="section">
+        <h2>Skills</h2>
+        <ul>
+          <li>Data Analysis and Visualization</li>
+          <li>SQL Querying</li>
+          <li>Data Cleaning and Preprocessing</li>
+          <li>Statistical Analysis</li>
+          <li>Machine Learning (Regression, Clustering)</li>
+          <li>Data Modeling</li>
+          <li>Data Pipelines (ETL)</li>
+          <li>Tableau, Power BI</li>
+          <li>Python (Pandas, NumPy, Matplotlib, Seaborn)</li>
+          <li>Version Control (Git)</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Languages</h2>
+        <ul>
+          <li>English (Fluent)</li>
+          <li>Spanish (Intermediate)</li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
